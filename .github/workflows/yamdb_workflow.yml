@@ -78,4 +78,8 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
+<<<<<<< HEAD
           massage: ${{ github.workflow }} успешно выполнен!
+=======
+          massage: ${{ github.workflow }} успешно выполнен!
+>>>>>>> b03d040a096b4d3dd988fcf67551abe023e45296
