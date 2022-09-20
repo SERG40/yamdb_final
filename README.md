@@ -1,7 +1,7 @@
 # yamdb_final
 ![yamdb workflow](https://github.com/SERG40/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-158.160.10.134 IP
+[158.160.10.134](http://158.160.10.134/api/v1/) Адресс сайта.
 
 ### Описание
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). 
