@@ -160,6 +160,8 @@ def send_confirmation_code(request):
         send_email(email)
         message = {'email': email, 'username': username}
         return Response(message, status=status.HTTP_200_OK)
+    else:
+        return None
 
 
 @api_view(['POST'])

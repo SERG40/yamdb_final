@@ -39,9 +39,12 @@ class IsAdmin(BasePermission):
     Права доступа только для админа.
     """
     def has_permission(self, request, view):
-        result = request.user.is_authenticated and (
-            request.user.is_staff or request.user.role == UserRole.ADMIN)
-        return result
+        return (
+            request.user.is_authenticated
+            and (
+                request.user.is_admin
+                or request.user.is_superuser)
+        )
 
 
 class IsModerator(BasePermission):
