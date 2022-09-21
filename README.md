@@ -20,6 +20,8 @@
 Python 3.8
 Django 2.2.19
 Docker
+Nginx
+Yandex.Cloud
 ### # Шаблон наполнения .env файла
 
 Шаблон файла в каталоге ./infra/example.env
@@ -30,6 +32,7 @@ Docker
 	POSTGRES_PASSWORD=postgres		# пароль пользователя базы данных
 	DB_HOST=db 				# имя хоста баз данных
 	DB_PORT=5432			        # порт для работы с базой данных
+	SECRET_KEY=124 			# ключ
 
 ### # Запуск проекта в контейнерах Docker
 - Перейдите в раздел infra для сборки docker-compose
