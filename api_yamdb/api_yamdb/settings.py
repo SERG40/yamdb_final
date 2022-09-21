@@ -14,7 +14,7 @@ SECRET_KEY = os.getenv('SECRET', default='124')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['158.160.10.134']
+ALLOWED_HOSTS = ['*']
 
 EMAIL = 'confirmation@yambd.com'
 
@@ -100,7 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'ru'
 
 TIME_ZONE = 'Europe/Moscow'
 
